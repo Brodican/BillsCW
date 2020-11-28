@@ -1,0 +1,184 @@
+body {
+    background-image: url("bosphback2.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+	background-color: rgba(0,27,38,0.7);
+}
+
+h1.title {
+}
+
+p.bottom {
+	background-color: rgba(0,27,38,0.7);
+	color: rgb(250,250,50);
+	position: fixed; 
+	bottom: 0; 
+	width:98.5%; 
+	text-align: center;
+	font-style: italic;
+	font-family: "Times New Roman", Times, serif;
+}
+
+p.bold {
+	font-weight: bold;
+}
+
+a.button {
+    background-color: rgba(0, 0, 153, 0.7);
+    border-radius: 2px;
+    border: none;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Cambria, Georgia, serif;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(255, 153, 0);
+}
+
+input.button {
+    background-color: rgba(0, 0, 153, 0.7);
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Cambria, Georgia, serif;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(255, 153, 0);	
+}
+
+img.logo {
+	width: 100%;
+}
+
+input.inputty {
+	display: block;
+	margin: 0px;
+	background-color: rgba(255,0,25,0.1);
+	border-radius: 1px;
+	width: 30%;
+	font-family: sans-serif;
+	font-size: 18px;
+	appearance: none;
+	box-shadow: none;
+	border-radius: none;
+}
+
+label.labelly {
+	background-color: rgba(0, 0, 153, 0.7);
+	border-radius: 5px;
+	padding: 2px;
+	font-size: 20px;
+	margin: 2px;
+	color: gold;
+}
+
+div.title {
+    border-radius: 1px;
+    background-color: rgba(50,50,255,0.5);
+    border: 0px solid black;
+	text-align:center;
+    font-family: Cambria, Georgia, serif;
+    margin: auto;
+    padding: 1px;
+    font-size: 1.5em;
+    color: gold;
+    width: 70%;
+}
+
+div.centrebox {
+	background-color:rgba(250,240,240,0.5);
+	margin: auto;
+	padding: 10px;
+	width: 79%;
+}
+div.firstbox {
+    border-radius: 25px;
+    margin: auto;
+    font-size: 2em;
+    color: rgba(0, 0, 0, 1);
+    /*color: grey; /*text colour*/
+    width: 80%;
+}
+
+div.secondbox {
+	float: right;
+    border-radius: 5px;
+    background-color: rgba(240,240,240,0.7);
+	text-align:center;
+    font-family: Cambria, Georgia, serif;
+    margin: 40px;
+    font-size: 1em;
+    color: rgba(0, 0, 0, 1);
+    width: 30%;
+}
+
+div.thirdbox {
+    float: right;
+    border-radius: 2px;
+    background-color: rgba(0,0,0,0.5);
+    border-color: black;
+    width: 9%;
+    height: 100%;
+    padding: 5px;
+    /*flex: 1 1 auto;*/
+}
+
+div.bottom {
+	width: 80%;
+	background-color: rgba(255,200,200,1);
+	padding-right: 10px
+	/*position: relative;*/
+}
+
+div.logo {
+    float: left;
+    width: 9%;
+    margin: 0px;
+    padding-right: 20px;
+    position: fixed;
+}
+
+div.writing {
+	width: 500px;			
+	margin-left: 40px;		
+	margin-top: 10px;		
+	margin-bottom: 10px;
+	border-width: 1.5px;
+	border-color: gold;
+	background-color: white;
+	border-style: solid;
+	padding: 5px;
+	padding-left: 20px;
+	font-family: fantasy;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+div.center {
+    margin: auto;
+    background-color: lightcoral;
+    border-color: black;
+    width: 50%;
+    border: 3px solid red;
+    padding: 10px;
+}
+
+.centerright {
+    padding: 70px 0;
+    border: 3px solid green;
+    text-align: center;
+}
+
+div.background {
+  height: auto;
+  width: auto;
+  background-image: url("grid1.jpg");
+}

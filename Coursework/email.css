@@ -1,0 +1,216 @@
+body {
+    background-image: url("bosphback2.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+	background-color: rgba(0,27,38,0.7);    
+}
+
+h1.title {
+}
+
+p.bottom {
+	background-color: rgba(0,27,38,0.7);
+	color: rgb(250,250,50);
+	position: fixed; 
+	bottom: 0; 
+	width:98.5%; 
+	text-align: center;
+	font-style: italic;
+	font-family: "Times New Roman", Times, serif;
+}
+
+p.bold {
+	font-weight: bold;
+}
+
+.button {
+    background-color: rgba(240,0,50,0.6);
+    border-radius: 5px;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Cambria, Georgia, serif;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    color: yellow;
+}
+
+.smallbutton {
+    background-color: rgba(240,0,50,0.6);
+    border-radius: 5px;
+    border: none;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Cambria, Georgia, serif;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    color: yellow;
+}
+
+.tinybutton {
+    background-color: rgba(0,27,38,0.7);
+    border-radius: 5px;
+    border: none;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Cambria, Georgia, serif;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    color: yellow;
+}
+
+img.logo {
+	width: 100%;
+}
+
+table {
+    border: 4px red;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgba(240,240,240,0.7);
+}
+
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    border-width: 2px;
+    border-color: rgba(50,50,255,0.5);
+}
+
+th.titley {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 20px;
+    color: rgba(200,0,50,0.8);
+    border-width: 4px;
+    border-color: rgba(50,50,255,0.5);
+}
+
+td.date {
+	font-size: 14px;
+}
+
+tr.hovvy:hover{
+	background-color:#f5f5f5;
+}
+
+caption.captiony {
+	font-size: 15px;
+	font-weight: bold;
+	color: gold;
+    background-color: rgba(50,50,255,0.5);
+}
+
+form.inputty {
+	display: block;
+	margin: 0px;
+	background-color: rgba(255,0,25,0.1);
+	border-radius: 5px;
+	width: 30%;
+	font-family: sans-serif;
+	font-size: 18px;
+	appearance: none;
+	box-shadow: none;
+	border-radius: none;
+}
+
+div.title {
+    border-radius: 1px;
+    background-color: rgba(50,50,255,0.5);
+    border: 0px solid black;
+	text-align:center;
+    font-family: Cambria, Georgia, serif;
+    margin: auto;
+    padding: 1px;
+    font-size: 1.5em;
+    color: gold;
+    width: 70%;
+}
+
+div.centrebox {
+	background-color:rgba(250,240,240,0.5);
+	margin: auto;
+	width: 80%;
+}
+div.firstbox {
+    border-radius: 25px;
+    margin: auto;
+    padding-right: 300px;
+    font-size: 2em;
+    color: rgba(0, 0, 0, 1);
+    width: 60%;
+}
+
+div.secondbox {
+	float: right;
+    border-radius: 5px;
+    background-color: rgba(240,240,240,0.7);
+	text-align:center;
+    font-family: Cambria, Georgia, serif;
+    margin: 10px;
+    padding: 10px;
+    color: rgba(0, 0, 0, 1);
+    width: 15%;
+}
+
+div.thirdbox {
+    float: right;
+    border-radius: 2px;
+    background-color: rgba(0,0,0,0.5);
+    border-color: black;
+    width: 9%;
+    height: 100%;
+    padding: 5px;
+    /*flex: 1 1 auto;*/
+}
+
+div.bottom {
+	width: 100%;
+	background-color: rgba(255,0,0,0.5);
+	position: relative;
+}
+
+div.logo {
+    float: left;
+    width: 9%;
+    margin: 0px;
+    padding-right: 20px;
+    position: fixed;
+}
+
+div.center {
+    margin: auto;
+    background-color: lightcoral;
+    border-color: black;
+    width: 50%;
+    border: 3px solid red;
+    padding: 10px;
+}
+
+.centerright {
+    padding: 70px 0;
+    border: 3px solid green;
+    text-align: center;
+}
+
+div.background {
+  height: auto;
+  width: auto;
+  background-image: url("grid1.jpg");
+}
